@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kobbong</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+
+		.header {
+			padding: 200px;
+			text-align: center;
+			color: white;
+			font-family: Dancing Script;
+			font-size: 25px;
+		}
+
+		ul {
+  			list-style-type: none;
+			margin: 0;
+			padding: 5px;
+			overflow: hidden;
+			background-color: rgba(62,132,202,0.75);
+			font-family: Roboto Condensed;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+		  background-color: rgba(84,117,223,0.6);
+		}
+
+		.active {
+		  background-color: rgba(218,67,157,0.81);
+		}
+
+		.discount {
+			text-align: center;
+			background-color: rgba(62,132,202,0.55);
+			color: white;
+			padding: 30px;
+			font-family: Dancing Script;
+		}
+
+		body {
+			background-image: url("https://www.hollywoodreporter.com/wp-content/uploads/2024/09/KMN07908.jpg%EC%9D%98-%EC%82%AC%EB%B3%B8-e1725666266645.jpg?w=2000&h=1126&crop=1");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-color: rgba(197,222,235,1);;
+		}
+
+		.put {
+			display: flex;
+			justify-content: center;
+			background-color: rgba(197,222,235,1);
+			padding: 5px;
+		}
+
+		.text:hover {
+		  font-size: 20px;
+		  text-decoration: none;
+		}
+
+		.text {
+			text-align: center;
+		}
+
+		a {
+			color: black;
+			text-decoration: none;
+		}
+
+		.products {
+			display: flex;
+			padding: 20px;
+			justify-content: center;
+			background-color: rgba(197,222,235,1);
+			font-family: Roboto Condensed;
+		}
+
+		.sticks:hover {
+			padding:2px;
+		}
+
+		.sticks {
+			padding: 15px;
+			justify-content: center;
+		}
+
+		.price {
+			font-size: 12px;
+		}
+
+		.log {
+			background-color: rgba(197,222,235,1);
+			font-family: Roboto Condensed;
+			padding: 50px;
+		}
+
+		.login {
+			margin: 20px 30px;
+			padding: 40px;
+			color: rgba(49,134,214,1);
+			margin-left: 35%;
+			margin-right: 35%;
+			text-align: left;
+			border: 5px double rgba(49,134,214,1);
+			border-radius: 20px;
+			background-color: rgba(49,149,210,0.18);
+		}
+
+		.label {
+			margin-left: 5%;
+		}
+
+		.input {
+			width: 90%;
+			height: 25px;
+			size: 10%;
+		}
+
+		.submit {
+			width: 80px;
+			height: 35px;
+			background-color: rgba(49,134,214,1);
+			color: whitesmoke;
+			font-family: Roboto Condensed;
+		}
+		.submit:hover {
+			background-color: rgba(84,117,223,0.6);
+			block-size: 40px;
+		}
+
+		.avatar {
+			vertical-align: middle;
+			width: 70px;
+			border-radius: 70px;
+			margin: auto;
+			border-color: seagreen;
+		}
+
+		.footer {
+			padding: 30px;
+			text-align: center;
+			color: white;
+			font-family: Dancing Script;
+			background-color: rgba(62,132,202,0.55);
+		}
+
+
+
+	</style>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<ul>
+  		<li><a class="active" href="#kobbong">Kobbong</a></li>
+  		<li><a href="#discount">Bestselling</a></li>
+  		<li><a href="#products">Shop</a></li>
+  		<li style="float:right"><a href="#login">Login|Signup</a></li>
+	</ul>
+
+
+	<div id="kobbong" class="header">
+		<h1>Lightsticks</h1>
+	</div>
+	<div id="discount" class="discount">
+		<h2>20% OFF ALL ORDERS OVER ₱ 10,000.00</h2>
+	</div>
+	
+	<div id="display" class="display">
+		<ul class="put">
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/1f6792197b6bff2133d2ae368aaa7743_1024x1024@2x.png?v=1681306546" width="250" height="250">
+			</li>
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/32cfd7c3d5a9a61ec133ea8ec7f030b8_1024x1024@2x.jpg?v=1727408115" width="250" height="250">
+			</li>
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/Picture1_1024x1024@2x.png?v=1664790095" width="250" height="250">
+			</li>
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/1000002469_detail_030_1024x1024@2x.jpg?v=1715584816" width="250" height="250">
+			</li>
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/1000003908_detail_068_1024x1024@2x.jpg?v=1703663767" width="250" height="250">
+			</li>
+			<li class="put">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/1_318b0aee-479a-4654-9ca2-1e3bbdb9c0eb_1024x1024@2x.png?v=1616401334" width="250" height="250">
+			</li>
+			
+		</ul>
+	</div>
+
+	<div id="products" class="products">
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/seventeen-official-light-stick-ver-4">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/svtcaratbong3_1024x1024@2x.jpg?v=1715134062" width="150" height="150">
+				<div class="text">
+					<p>Seventeen Official<br />Light Stick Ver. 3</p>
+					<br /><p class="price">₱4,400.00</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/preorder-kiss-of-life-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/1000006515_detail_030_1080x.jpg?v=1717741253" width="150" height="150">
+				<div class="text">
+					<p>KISS OF LIFE<br />Official Light Stick</p>
+					<br /><p class="price">₱4,000.00</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/le-sserafim-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/ed5320801c8afbca62b2a561d432624b_1024x1024@2x.png?v=1689418079" width="150" height="150">
+				<div class="text">
+					<p>LE SSERAFIM<br />Official Light Stick</p>
+					<br /><p class="price">₱4,400.00</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/enhypen-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/s-l1600_36_1024x1024@2x.jpg?v=1614331545" width="150" height="150">
+				<div class="text">
+					<p>ENHYPEN<br />Official Light Stick</p>
+					<br /><p class="price">₱4,000.00</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="products">
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/preorder-stray-kids-official-light-stick-ver-2">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/SKZ_DOME_MD_Online_LS_1_f6f033c0-9cc5-4e44-8ac0-2206cb626a58_1024x1024@2x.jpg?v=1696398997" width="150" height="150">
+				<div class="text">
+					<p>Stray Kids Official<br />Light Stick Ver. 2</p>
+					<br /><p class="price">₱4,700.00</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/preorder-ive-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/1000002066_detail_011_1024x1024@2x.jpg?v=1675122090" width="150" height="150">
+				<div class="text">
+					<p>IVE Official <br />Light Stick</p>
+					<br /><p class="price">₱3,600.00</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/boynextdoor-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/files/bndlight_1024x1024@2x.jpg?v=1709008464" width="150" height="150">
+				<div class="text">
+					<p>BOYNEXTDOOR<br />Official Light Stick</p>
+					<br /><p class="price">₱4,000.00</p>
+			</div>
+			</a>
+		</div>
+
+		<div class="sticks">
+			<a href="https://www.kpopbazaar.com.au/products/preorder-stayc-official-light-stick">
+				<img src="https://www.kpopbazaar.com.au/cdn/shop/products/1000000643_detail_08_1024x1024@2x.jpg?v=1654583856" width="150" height="150">
+			<div class="text">
+				<p>STAYC Official<br />Light Stick</p>
+				<br /><p class="price">₱4,000.00</p>
+			</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="log">
+		<form id="login" class="login">
+			<center>
+				<img src="https://cdn.pixabay.com/photo/2017/03/21/02/00/user-2160923_1280.png" class="avatar">
+				<h2>Login</h2>
+			</center>
+				<br />
+				<label for="username" class="label">Username: </label>
+				<br />
+				<center>
+					<input id= "username" type="text" name="pass" class="input">
+				</center>
+				<br />
+				<label for="password" class="label">Password: </label>
+				<br />
+				<center><input id= "password" type="password" name="pass" class="input">
+				<br />
+				<br />	
+					<input type="submit" value="Login" class="submit">
+				</center>
+		</form>
+	</div>
+
+	<div class="footer">
+		<h3>Jade Cabatingan | <span style="color: lightcyan;">9-Ruby</span></h3>
+	</div>
+
+</body>
+</html>
